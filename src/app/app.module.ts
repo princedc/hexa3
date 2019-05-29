@@ -11,7 +11,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { AccelerationProgramComponent } from './acceleration-program/acceleration-program.component';
 import { DigitalProgramComponent } from './digital-program/digital-program.component';
 import { AcceleratorProgramComponent } from './accelerator-program/accelerator-program.component';
-import { CorportateTrainingComponent } from './corportate-training/corportate-training.component';
+import { CorporateTrainingComponent } from './corportate-training/corportate-training.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { CorportateTrainingComponent } from './corportate-training/corportate-tr
     AccelerationProgramComponent,
     DigitalProgramComponent,
     AcceleratorProgramComponent,
-    CorportateTrainingComponent
+    CorporateTrainingComponent
   ],
   imports: [
     BrowserModule,

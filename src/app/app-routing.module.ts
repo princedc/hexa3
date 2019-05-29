@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { DigitalProgramComponent } from './digital-program/digital-program.component';
 import { AcceleratorProgramComponent } from './accelerator-program/accelerator-program.component'
-
+import { CorporateTrainingComponent} from './corportate-training/corportate-training.component'
 const routes: Routes = [
   // {
   //   path : '',
@@ -16,6 +16,10 @@ const routes: Routes = [
     path: '', 
     redirectTo: '/about', 
     pathMatch: 'full' 
+  },
+  {
+    path:'ctp',
+    component : CorporateTrainingComponent
   },
   {
     path: 'tap', 
